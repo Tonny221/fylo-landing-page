@@ -25,13 +25,13 @@
     box-sizing: border-box;
 }
 
-html,
-body{
-    height: 100vh;
-}
-
 body{
     font-family: var(--text-font);
+}
+
+.home,
+.productive{
+    height: 100vh;
 }
 
 
