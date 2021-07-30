@@ -35,3 +35,76 @@ body{
 }
 
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 2.5rem 0 2.5rem;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header img{
+    width: 12%;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 3rem;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 0.913rem;
+}
+
+.home-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-title{
+    font-family: var(--title-font);
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+.home-information{
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+.illustration img{
+    width: 100%;
+}
+
+.email-input{
+    border: 1px solid var(--section-text-color);
+    border-radius: 0.25rem;
+    line-height: 2.2;
+    padding-left: 1rem;
+    padding-right: 8rem;
+}
+
+.email-submit{
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 0.25rem;
+    line-height: 2.2;
+    padding: 0 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.call{
+    background-color: var(--last-section-color);
+}
