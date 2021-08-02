@@ -174,8 +174,13 @@ body{
     padding: 1.5rem;
 }
 
+.testimonial-info{
+    margin-bottom: 0.75rem;
+}
+
 .testimonial-author{
     display: flex;
+    align-items: center;
 }
 
 .author-name{
@@ -194,5 +199,54 @@ body{
 
 .call{
     background-color: var(--last-section-color);
+    padding: 4rem;
+    color: white;
+}
+
+.call-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-title{
+    font-family: var(--title-font);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.call-info{
+    font-size: 0.938rem;
+}
+
+.call-action{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+}
+
+.call-action-email-input{
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.1);
+    line-height: 2.6;
+    border: none;
+    padding-right: 14rem;
+    padding-left: 1rem;
+    border-radius: 0.25rem;
+}
+
+.call-btn{
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 0.25rem;
+    width: 40%;
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    cursor: pointer;
+    font-size: 0.813rem;
+    line-height: 2.2;
+}
+
+.call-data{
+    width: 50%;
+    font-size: 0.813rem;
 }
 
