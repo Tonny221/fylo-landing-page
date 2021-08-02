@@ -250,3 +250,38 @@ body{
     font-size: 0.813rem;
 }
 
+footer{
+    background-color: var(--footer-color);
+    color: white;
+}
+
+.footer-container {
+    padding: 4rem;
+}
+
+.footer-data{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-data-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.footer-data-span a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-data-span img{
+    margin-right: 0.75rem;
+}
