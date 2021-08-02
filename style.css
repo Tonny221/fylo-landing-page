@@ -285,3 +285,138 @@ footer{
 .footer-data-span img{
     margin-right: 0.75rem;
 }
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px){
+    .nav-list{
+        column-gap: 1rem;
+        margin-right: 0.25rem;
+    }
+    
+    .nav-link{
+        font-size: 0.938rem;
+    }
+
+    .nav-header img{
+        width: 25%;
+    }
+
+    .home-container{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 1.25rem;
+    }
+
+    .home-title{
+        text-align: center;
+        font-size: 1.75rem;
+    }
+
+    .home-information{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .data{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .email-input{
+        margin-bottom: 1rem;
+    }
+
+    .productive{
+        padding-top: 4rem;
+        height: 120vh;
+    }
+
+    .productive::before{
+        height: 50%;
+    }
+
+    .productive-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .productive-information{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .productive-data{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .productive-illustration{
+        width: 100%;
+        margin-bottom: 1.75rem;
+    }
+
+    .productive-link{
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 1.5rem;
+        padding-top: 1.75rem;
+    }
+
+    .productive-testimonial{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .productive-title{
+        font-size: 1.125rem;
+        text-align: center;
+    }
+
+    .call{
+        padding: 2rem;
+    }
+
+    .call-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .call-data{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .call-title{
+        text-align: center;
+    }
+
+    .call-info{
+        text-align: center;
+    }
+
+    .call-btn{
+        width: 100%;
+    }
+
+    .call-action-email-input{
+        padding: 0;
+    }
+    
+    .footer-data{
+        flex-direction: column;
+        row-gap: 4rem;
+    }
+
+    .footer-data-item:nth-child(4){
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 2rem;
+    }
+}
