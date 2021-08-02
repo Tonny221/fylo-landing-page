@@ -105,6 +105,57 @@ body{
     cursor: pointer;
 }
 
+.productive{
+    background-color: var(--section-bg-color);
+}
+
+.productive-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.productive-title{
+    font-family: var(--title-font);
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+.productive-info1{
+    margin-bottom: 1rem;
+    color: #4E4A63;
+}
+
+.productive-info2{
+    margin-bottom: 1rem;
+    color: #4E4A63;
+}
+
+.productive-link{
+    color: var(--link-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.productive-illustration{
+    width: 90%;
+}
+
+.productive-illustration img{
+    max-width: 100%;
+}
+
+.productive-data{
+    height: max-content;
+}
+
+.productive-testimonial{
+    width: 45%;
+}
+
+
+
 .call{
     background-color: var(--last-section-color);
 }
+
